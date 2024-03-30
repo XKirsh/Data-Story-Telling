@@ -63,5 +63,4 @@ if uploaded_file is not None:
   reason_labels = ['Too Far', 'Too Expensive', 'Lack Documentation', 'Other']
   reason_counts = [df[reason_col].sum() for reason_col in reason_columns]
 
-  fig, ax = plt.subplots(figsize=(10, 6))
-  sns.barplot(x=
+  fig, ax = plt.subplots(
