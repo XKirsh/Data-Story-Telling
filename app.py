@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset (replace with your actual file path)
-file_path = '/content/drive/MyDrive/micro_world.csv'
+file_path = 'micro_world.csv'
 df = pd.read_csv(file_path, encoding='latin1')
 
 # Title and header
