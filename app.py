@@ -28,7 +28,7 @@ df['female'].value_counts().plot.pie(autopct='%1.1f%%', labels=['Male', 'Female'
 plt.title('Gender Distribution of Respondents')
 plt.ylabel('')
 st.pyplot(fig)
-st.write("Insight: Knowing the gender distribution can inform gender-specific financial inclusion strategies.)
+st.write("Insight: Knowing the gender distribution can inform gender-specific financial inclusion strategies.")
 
 st.write("Question: How does education level vary among respondents?")
 st.subheader("Education Level of Respondents")
